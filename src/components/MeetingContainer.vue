@@ -15,7 +15,7 @@
       >
         <ParticipantView v-for="participant in remoteSpeakers" :key="participant.id" :participantId="participant.id" />
       </div>
-      <Notification />
+   
     </div>
   </div>
   <div v-else>
